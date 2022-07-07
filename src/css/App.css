@@ -1,0 +1,22 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-container {
+  background-color: #F7F6F3;
+  width: 100%;
+  user-select: none;
+}
+
+.main-container::-webkit-scrollbar {
+  display: none;
+}
+
+@media screen and (min-width: 500px) {
+  .main-container {
+    width: 500px;
+  }
+}

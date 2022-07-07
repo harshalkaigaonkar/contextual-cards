@@ -1,0 +1,18 @@
+.image-cards-container {
+  display: flex;
+  white-space: nowrap;
+  overflow: auto;
+  margin: 10px;
+}
+
+.image-cards-container::-webkit-scrollbar {
+  display: none;
+}
+
+.image-card {
+  background-size: 200px;
+  height: 120px;
+  background-repeat: no-repeat;
+  margin: 0 10px;
+  border-radius: 15px;
+}
